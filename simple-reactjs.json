@@ -1,13 +1,10 @@
 {
-    "window.zoomLevel": 0,
-    "editor.formatOnSave": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "prettier.singleQuote": true,
-    "prettier.disableLanguages": [
-        "vue",
-        "ejs"
-    ],
-    "prettier.jsxBracketSameLine": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
